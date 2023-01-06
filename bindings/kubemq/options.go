@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dapr/components-contrib/bindings"
+	"github.com/JY29/components-contrib/bindings"
 )
 
 type options struct {

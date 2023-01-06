@@ -18,7 +18,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/nameresolution"
+	"github.com/JY29/components-contrib/nameresolution"
 	"github.com/dapr/kit/logger"
 )
 

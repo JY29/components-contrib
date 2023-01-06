@@ -28,7 +28,7 @@ import (
 	mqtt "github.com/eclipse/paho.mqtt.golang"
 	"go.uber.org/ratelimit"
 
-	"github.com/dapr/components-contrib/pubsub"
+	"github.com/JY29/components-contrib/pubsub"
 	"github.com/dapr/kit/logger"
 )
 
@@ -83,7 +83,7 @@ func (m *mqttPubSub) Init(metadata pubsub.Metadata) error {
 	// mqtt broker allows only one connection at a given time from a clientID.
 	producerClientID := m.metadata.producerID
 	if producerClientID == "" {
-		// for backwards-compatibility; see: https://github.com/dapr/components-contrib/pull/2104
+		// for backwards-compatibility; see: https://github.com/JY29/components-contrib/pull/2104
 		producerClientID = m.metadata.consumerID + "-producer"
 	}
 	connCtx, connCancel := context.WithTimeout(m.ctx, defaultWait)
@@ -210,7 +210,7 @@ func (m *mqttPubSub) startSubscription(ctx context.Context) error {
 	// mqtt broker allows only one connection at a given time from a clientID.
 	consumerClientID := m.metadata.consumerID
 	if m.metadata.producerID == "" {
-		// for backwards-compatibility; see: https://github.com/dapr/components-contrib/pull/2104
+		// for backwards-compatibility; see: https://github.com/JY29/components-contrib/pull/2104
 		consumerClientID += "-consumer"
 	}
 	connCtx, connCancel := context.WithTimeout(ctx, defaultWait)

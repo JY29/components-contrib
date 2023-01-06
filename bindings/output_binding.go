@@ -17,7 +17,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/dapr/components-contrib/health"
+	"github.com/JY29/components-contrib/health"
 )
 
 // OutputBinding is the interface for an output binding, allowing users to invoke remote systems with optional payloads.

@@ -29,7 +29,7 @@ import (
 	"github.com/Azure/go-autorest/autorest/azure/auth"
 	"golang.org/x/crypto/pkcs12"
 
-	"github.com/dapr/components-contrib/metadata"
+	"github.com/JY29/components-contrib/metadata"
 )
 
 // NewEnvironmentSettings returns a new EnvironmentSettings configured for a given Azure resource.

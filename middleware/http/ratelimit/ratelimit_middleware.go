@@ -21,7 +21,7 @@ import (
 	tollbooth "github.com/didip/tollbooth/v7"
 	libstring "github.com/didip/tollbooth/v7/libstring"
 
-	"github.com/dapr/components-contrib/middleware"
+	"github.com/JY29/components-contrib/middleware"
 	"github.com/dapr/kit/logger"
 )
 

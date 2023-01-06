@@ -1,4 +1,4 @@
-module github.com/dapr/components-contrib/middleware/wasm/example
+module github.com/JY29/components-contrib/middleware/wasm/example
 
 go 1.19
 

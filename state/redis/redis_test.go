@@ -24,8 +24,8 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	"github.com/stretchr/testify/assert"
 
-	rediscomponent "github.com/dapr/components-contrib/internal/component/redis"
-	"github.com/dapr/components-contrib/state"
+	rediscomponent "github.com/JY29/components-contrib/internal/component/redis"
+	"github.com/JY29/components-contrib/state"
 	"github.com/dapr/kit/logger"
 	"github.com/dapr/kit/ptr"
 )

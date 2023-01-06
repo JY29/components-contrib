@@ -22,9 +22,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/multierr"
 
-	"github.com/dapr/components-contrib/bindings"
-	binding_asb "github.com/dapr/components-contrib/bindings/azure/servicebusqueues"
-	secretstore_env "github.com/dapr/components-contrib/secretstores/local/env"
+	"github.com/JY29/components-contrib/bindings"
+	binding_asb "github.com/JY29/components-contrib/bindings/azure/servicebusqueues"
+	secretstore_env "github.com/JY29/components-contrib/secretstores/local/env"
 
 	bindings_loader "github.com/dapr/dapr/pkg/components/bindings"
 	secretstores_loader "github.com/dapr/dapr/pkg/components/secretstores"
@@ -36,13 +36,13 @@ import (
 
 	"github.com/dapr/kit/logger"
 
-	"github.com/dapr/components-contrib/tests/certification/embedded"
-	"github.com/dapr/components-contrib/tests/certification/flow"
-	"github.com/dapr/components-contrib/tests/certification/flow/app"
-	"github.com/dapr/components-contrib/tests/certification/flow/network"
-	"github.com/dapr/components-contrib/tests/certification/flow/sidecar"
-	"github.com/dapr/components-contrib/tests/certification/flow/simulate"
-	"github.com/dapr/components-contrib/tests/certification/flow/watcher"
+	"github.com/JY29/components-contrib/tests/certification/embedded"
+	"github.com/JY29/components-contrib/tests/certification/flow"
+	"github.com/JY29/components-contrib/tests/certification/flow/app"
+	"github.com/JY29/components-contrib/tests/certification/flow/network"
+	"github.com/JY29/components-contrib/tests/certification/flow/sidecar"
+	"github.com/JY29/components-contrib/tests/certification/flow/simulate"
+	"github.com/JY29/components-contrib/tests/certification/flow/watcher"
 )
 
 const (

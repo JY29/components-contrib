@@ -22,8 +22,8 @@ import (
 	"go.temporal.io/api/enums/v1"
 	"go.temporal.io/sdk/client"
 
-	"github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/workflows"
+	"github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/workflows"
 	"github.com/dapr/kit/logger"
 )
 

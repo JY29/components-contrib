@@ -25,8 +25,8 @@ import (
 	"github.com/Azure/go-autorest/autorest/to"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/configuration"
-	mdata "github.com/dapr/components-contrib/metadata"
+	"github.com/JY29/components-contrib/configuration"
+	mdata "github.com/JY29/components-contrib/metadata"
 	"github.com/dapr/kit/logger"
 )
 

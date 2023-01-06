@@ -21,8 +21,8 @@ import (
 	"github.com/go-redis/redis/v8"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/bindings"
-	internalredis "github.com/dapr/components-contrib/internal/component/redis"
+	"github.com/JY29/components-contrib/bindings"
+	internalredis "github.com/JY29/components-contrib/internal/component/redis"
 	"github.com/dapr/kit/logger"
 )
 

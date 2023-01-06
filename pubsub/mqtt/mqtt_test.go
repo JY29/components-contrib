@@ -31,8 +31,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	mdata "github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/pubsub"
+	mdata "github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/pubsub"
 	"github.com/dapr/kit/logger"
 )
 
@@ -539,7 +539,7 @@ func Test_buildRegexForTopic(t *testing.T) {
 			},
 		},
 		{
-			// https://github.com/dapr/components-contrib/issues/1881#issuecomment-1191571216
+			// https://github.com/JY29/components-contrib/issues/1881#issuecomment-1191571216
 			name:  "event/data/+/+/+/1/1",
 			args:  args{topicName: "event/data/+/+/+/1/1"},
 			regex: `^event/data/([^\/]*)/([^\/]*)/([^\/]*)/1/1$`,

@@ -24,7 +24,7 @@ import (
 	"github.com/apache/pulsar-client-go/pulsar"
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/dapr/components-contrib/pubsub"
+	"github.com/JY29/components-contrib/pubsub"
 	"github.com/dapr/kit/logger"
 )
 

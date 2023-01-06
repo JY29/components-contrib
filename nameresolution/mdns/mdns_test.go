@@ -24,8 +24,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dapr/components-contrib/metadata"
-	nr "github.com/dapr/components-contrib/nameresolution"
+	"github.com/JY29/components-contrib/metadata"
+	nr "github.com/JY29/components-contrib/nameresolution"
 	"github.com/dapr/kit/logger"
 )
 

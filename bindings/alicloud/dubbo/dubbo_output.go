@@ -26,7 +26,7 @@ import (
 	_ "dubbo.apache.org/dubbo-go/v3/protocol/dubbo"
 	dubboImpl "dubbo.apache.org/dubbo-go/v3/protocol/dubbo/impl"
 
-	"github.com/dapr/components-contrib/bindings"
+	"github.com/JY29/components-contrib/bindings"
 	"github.com/dapr/kit/logger"
 )
 

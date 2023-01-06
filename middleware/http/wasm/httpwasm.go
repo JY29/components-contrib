@@ -17,7 +17,7 @@ import (
 	"github.com/http-wasm/http-wasm-host-go/api"
 	"github.com/tetratelabs/wazero"
 
-	dapr "github.com/dapr/components-contrib/middleware"
+	dapr "github.com/JY29/components-contrib/middleware"
 	"github.com/dapr/kit/logger"
 )
 

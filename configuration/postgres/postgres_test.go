@@ -21,7 +21,7 @@ import (
 	"github.com/pashagolub/pgxmock/v2"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/configuration"
+	"github.com/JY29/components-contrib/configuration"
 )
 
 func TestSelectAllQuery(t *testing.T) {

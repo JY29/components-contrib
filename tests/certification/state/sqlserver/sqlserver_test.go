@@ -24,13 +24,13 @@ import (
 
 	// State.
 
-	state_sqlserver "github.com/dapr/components-contrib/state/sqlserver"
+	state_sqlserver "github.com/JY29/components-contrib/state/sqlserver"
 	state_loader "github.com/dapr/dapr/pkg/components/state"
 	"github.com/dapr/kit/logger"
 
 	// Secret stores.
 
-	secretstore_env "github.com/dapr/components-contrib/secretstores/local/env"
+	secretstore_env "github.com/JY29/components-contrib/secretstores/local/env"
 	secretstores_loader "github.com/dapr/dapr/pkg/components/secretstores"
 
 	// Dapr runtime and Go-SDK
@@ -39,13 +39,13 @@ import (
 	"github.com/dapr/go-sdk/client"
 
 	// Certification testing runnables
-	"github.com/dapr/components-contrib/tests/certification/embedded"
-	"github.com/dapr/components-contrib/tests/certification/flow"
+	"github.com/JY29/components-contrib/tests/certification/embedded"
+	"github.com/JY29/components-contrib/tests/certification/flow"
 
-	"github.com/dapr/components-contrib/tests/certification/flow/dockercompose"
-	"github.com/dapr/components-contrib/tests/certification/flow/network"
-	"github.com/dapr/components-contrib/tests/certification/flow/retry"
-	"github.com/dapr/components-contrib/tests/certification/flow/sidecar"
+	"github.com/JY29/components-contrib/tests/certification/flow/dockercompose"
+	"github.com/JY29/components-contrib/tests/certification/flow/network"
+	"github.com/JY29/components-contrib/tests/certification/flow/retry"
+	"github.com/JY29/components-contrib/tests/certification/flow/sidecar"
 )
 
 const (

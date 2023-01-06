@@ -24,8 +24,8 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"golang.org/x/exp/slices"
 
-	"github.com/dapr/components-contrib/bindings"
-	"github.com/dapr/components-contrib/internal/component/cloudflare/workers"
+	"github.com/JY29/components-contrib/bindings"
+	"github.com/JY29/components-contrib/internal/component/cloudflare/workers"
 	"github.com/dapr/kit/logger"
 )
 

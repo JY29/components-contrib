@@ -16,7 +16,7 @@ package kubernetes
 import (
 	"fmt"
 
-	"github.com/dapr/components-contrib/nameresolution"
+	"github.com/JY29/components-contrib/nameresolution"
 	"github.com/dapr/kit/config"
 	"github.com/dapr/kit/logger"
 )

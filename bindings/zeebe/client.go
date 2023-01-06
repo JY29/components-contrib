@@ -19,8 +19,8 @@ import (
 
 	"github.com/camunda/zeebe/clients/go/v8/pkg/zbc"
 
-	"github.com/dapr/components-contrib/bindings"
-	metadata "github.com/dapr/components-contrib/metadata"
+	"github.com/JY29/components-contrib/bindings"
+	metadata "github.com/JY29/components-contrib/metadata"
 	"github.com/dapr/kit/logger"
 )
 

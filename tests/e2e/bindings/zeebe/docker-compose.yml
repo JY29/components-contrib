@@ -24,7 +24,7 @@ services:
     volumes:
       - dind-var-lib-docker:/var/lib/docker
       - dapr-repo:/go/src/github.com/dapr/dapr:cached
-      - ../../../../:/go/src/github.com/dapr/components-contrib:cached
+      - ../../../../:/go/src/github.com/JY29/components-contrib:cached
       - /var/run/docker.sock:/var/run/docker-host.sock
     network_mode:
       service:zeebe

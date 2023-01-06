@@ -18,7 +18,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/pubsub"
+	"github.com/JY29/components-contrib/pubsub"
 )
 
 const (

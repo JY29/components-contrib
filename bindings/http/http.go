@@ -27,8 +27,8 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/dapr/components-contrib/bindings"
-	"github.com/dapr/components-contrib/internal/utils"
+	"github.com/JY29/components-contrib/bindings"
+	"github.com/JY29/components-contrib/internal/utils"
 	"github.com/dapr/kit/logger"
 )
 

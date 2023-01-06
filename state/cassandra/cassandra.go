@@ -22,9 +22,9 @@ import (
 	"github.com/gocql/gocql"
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/state"
-	stateutils "github.com/dapr/components-contrib/state/utils"
+	"github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/state"
+	stateutils "github.com/JY29/components-contrib/state/utils"
 	"github.com/dapr/kit/logger"
 )
 

@@ -23,8 +23,8 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
 	"github.com/Azure/azure-sdk-for-go/sdk/data/azcosmos"
 
-	"github.com/dapr/components-contrib/bindings"
-	"github.com/dapr/components-contrib/internal/authentication/azure"
+	"github.com/JY29/components-contrib/bindings"
+	"github.com/JY29/components-contrib/internal/authentication/azure"
 	"github.com/dapr/kit/logger"
 )
 

@@ -18,7 +18,7 @@ import (
 
 	"github.com/cenkalti/backoff/v4"
 
-	"github.com/dapr/components-contrib/tests/certification/flow"
+	"github.com/JY29/components-contrib/tests/certification/flow"
 	"github.com/dapr/kit/retry"
 )
 

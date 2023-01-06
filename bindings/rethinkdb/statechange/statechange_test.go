@@ -21,8 +21,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/bindings"
-	"github.com/dapr/components-contrib/metadata"
+	"github.com/JY29/components-contrib/bindings"
+	"github.com/JY29/components-contrib/metadata"
 	"github.com/dapr/kit/logger"
 )
 
@@ -46,7 +46,7 @@ func getNewRethinkActorBinding() *Binding {
 }
 
 /*
-go test github.com/dapr/components-contrib/bindings/rethinkdb/statechange \
+go test github.com/JY29/components-contrib/bindings/rethinkdb/statechange \
 	-run ^TestBinding$ -count 1
 */
 

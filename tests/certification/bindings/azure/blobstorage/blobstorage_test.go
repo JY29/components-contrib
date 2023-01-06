@@ -25,8 +25,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/bindings/azure/blobstorage"
-	secretstore_env "github.com/dapr/components-contrib/secretstores/local/env"
+	"github.com/JY29/components-contrib/bindings/azure/blobstorage"
+	secretstore_env "github.com/JY29/components-contrib/secretstores/local/env"
 	bindings_loader "github.com/dapr/dapr/pkg/components/bindings"
 	secretstores_loader "github.com/dapr/dapr/pkg/components/secretstores"
 	"github.com/dapr/dapr/pkg/runtime"
@@ -35,9 +35,9 @@ import (
 	"github.com/dapr/kit/logger"
 	"github.com/dapr/kit/ptr"
 
-	"github.com/dapr/components-contrib/tests/certification/embedded"
-	"github.com/dapr/components-contrib/tests/certification/flow"
-	"github.com/dapr/components-contrib/tests/certification/flow/sidecar"
+	"github.com/JY29/components-contrib/tests/certification/embedded"
+	"github.com/JY29/components-contrib/tests/certification/flow"
+	"github.com/JY29/components-contrib/tests/certification/flow/sidecar"
 
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob"
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blob"

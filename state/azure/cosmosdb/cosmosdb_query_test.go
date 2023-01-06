@@ -21,7 +21,7 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/data/azcosmos"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/state/query"
+	"github.com/JY29/components-contrib/state/query"
 )
 
 func TestCosmosDbKeyReplace(t *testing.T) {

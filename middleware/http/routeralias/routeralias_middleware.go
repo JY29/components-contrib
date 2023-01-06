@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/dapr/components-contrib/middleware"
+	"github.com/JY29/components-contrib/middleware"
 	"github.com/dapr/kit/logger"
 
 	"github.com/gorilla/mux"

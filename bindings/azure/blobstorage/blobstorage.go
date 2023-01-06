@@ -28,8 +28,8 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/container"
 	"github.com/google/uuid"
 
-	"github.com/dapr/components-contrib/bindings"
-	storageinternal "github.com/dapr/components-contrib/internal/component/azure/blobstorage"
+	"github.com/JY29/components-contrib/bindings"
+	storageinternal "github.com/JY29/components-contrib/internal/component/azure/blobstorage"
 	"github.com/dapr/kit/logger"
 	"github.com/dapr/kit/ptr"
 )

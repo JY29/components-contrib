@@ -22,10 +22,10 @@ import (
 	"github.com/google/uuid"
 	"golang.org/x/oauth2"
 
-	"github.com/dapr/components-contrib/internal/httputils"
-	"github.com/dapr/components-contrib/internal/utils"
-	mdutils "github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/middleware"
+	"github.com/JY29/components-contrib/internal/httputils"
+	"github.com/JY29/components-contrib/internal/utils"
+	mdutils "github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/middleware"
 	"github.com/dapr/kit/logger"
 )
 

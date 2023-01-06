@@ -19,8 +19,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	mdata "github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/pubsub"
+	mdata "github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/pubsub"
 )
 
 func TestMetaDataDecode(t *testing.T) {

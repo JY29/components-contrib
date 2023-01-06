@@ -25,8 +25,8 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/dapr/components-contrib/bindings"
-	kubeclient "github.com/dapr/components-contrib/internal/authentication/kubernetes"
+	"github.com/JY29/components-contrib/bindings"
+	kubeclient "github.com/JY29/components-contrib/internal/authentication/kubernetes"
 	"github.com/dapr/kit/logger"
 )
 

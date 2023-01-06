@@ -22,8 +22,8 @@ import (
 	consul "github.com/hashicorp/consul/api"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/metadata"
-	nr "github.com/dapr/components-contrib/nameresolution"
+	"github.com/JY29/components-contrib/metadata"
+	nr "github.com/JY29/components-contrib/nameresolution"
 	"github.com/dapr/kit/logger"
 )
 

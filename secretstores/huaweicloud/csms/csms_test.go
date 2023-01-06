@@ -21,7 +21,7 @@ import (
 	"github.com/huaweicloud/huaweicloud-sdk-go-v3/services/csms/v1/model"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/secretstores"
+	"github.com/JY29/components-contrib/secretstores"
 )
 
 const (

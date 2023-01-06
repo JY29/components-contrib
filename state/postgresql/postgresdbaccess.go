@@ -26,9 +26,9 @@ import (
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"github.com/dapr/components-contrib/state"
-	"github.com/dapr/components-contrib/state/query"
-	stateutils "github.com/dapr/components-contrib/state/utils"
+	"github.com/JY29/components-contrib/state"
+	"github.com/JY29/components-contrib/state/query"
+	stateutils "github.com/JY29/components-contrib/state/utils"
 	"github.com/dapr/kit/logger"
 	"github.com/dapr/kit/ptr"
 )

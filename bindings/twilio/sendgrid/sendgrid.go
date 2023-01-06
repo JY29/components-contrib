@@ -24,7 +24,7 @@ import (
 	"github.com/sendgrid/sendgrid-go"
 	"github.com/sendgrid/sendgrid-go/helpers/mail"
 
-	"github.com/dapr/components-contrib/bindings"
+	"github.com/JY29/components-contrib/bindings"
 	"github.com/dapr/kit/logger"
 )
 

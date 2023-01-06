@@ -23,8 +23,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/multierr"
 
-	"github.com/dapr/components-contrib/bindings"
-	binding_rabbitmq "github.com/dapr/components-contrib/bindings/rabbitmq"
+	"github.com/JY29/components-contrib/bindings"
+	binding_rabbitmq "github.com/JY29/components-contrib/bindings/rabbitmq"
 	bindings_loader "github.com/dapr/dapr/pkg/components/bindings"
 	"github.com/dapr/dapr/pkg/runtime"
 	dapr_testing "github.com/dapr/dapr/pkg/testing"
@@ -32,15 +32,15 @@ import (
 	"github.com/dapr/go-sdk/service/common"
 	"github.com/dapr/kit/logger"
 
-	"github.com/dapr/components-contrib/tests/certification/embedded"
-	"github.com/dapr/components-contrib/tests/certification/flow"
-	"github.com/dapr/components-contrib/tests/certification/flow/app"
-	"github.com/dapr/components-contrib/tests/certification/flow/dockercompose"
-	"github.com/dapr/components-contrib/tests/certification/flow/network"
-	"github.com/dapr/components-contrib/tests/certification/flow/retry"
-	"github.com/dapr/components-contrib/tests/certification/flow/sidecar"
-	"github.com/dapr/components-contrib/tests/certification/flow/simulate"
-	"github.com/dapr/components-contrib/tests/certification/flow/watcher"
+	"github.com/JY29/components-contrib/tests/certification/embedded"
+	"github.com/JY29/components-contrib/tests/certification/flow"
+	"github.com/JY29/components-contrib/tests/certification/flow/app"
+	"github.com/JY29/components-contrib/tests/certification/flow/dockercompose"
+	"github.com/JY29/components-contrib/tests/certification/flow/network"
+	"github.com/JY29/components-contrib/tests/certification/flow/retry"
+	"github.com/JY29/components-contrib/tests/certification/flow/sidecar"
+	"github.com/JY29/components-contrib/tests/certification/flow/simulate"
+	"github.com/JY29/components-contrib/tests/certification/flow/watcher"
 )
 
 const (

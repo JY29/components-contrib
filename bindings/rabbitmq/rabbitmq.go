@@ -23,9 +23,9 @@ import (
 
 	amqp "github.com/rabbitmq/amqp091-go"
 
-	"github.com/dapr/components-contrib/bindings"
-	"github.com/dapr/components-contrib/internal/utils"
-	contribMetadata "github.com/dapr/components-contrib/metadata"
+	"github.com/JY29/components-contrib/bindings"
+	"github.com/JY29/components-contrib/internal/utils"
+	contribMetadata "github.com/JY29/components-contrib/metadata"
 	"github.com/dapr/kit/logger"
 )
 

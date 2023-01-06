@@ -22,17 +22,17 @@ import (
 	"github.com/benbjohnson/clock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dapr/components-contrib/bindings"
-	"github.com/dapr/components-contrib/bindings/cron"
+	"github.com/JY29/components-contrib/bindings"
+	"github.com/JY29/components-contrib/bindings/cron"
 	"github.com/dapr/dapr/pkg/runtime"
 	"github.com/dapr/go-sdk/service/common"
 	"github.com/dapr/kit/logger"
 
 	// Certification testing runnables
-	"github.com/dapr/components-contrib/tests/certification/embedded"
-	"github.com/dapr/components-contrib/tests/certification/flow"
-	"github.com/dapr/components-contrib/tests/certification/flow/app"
-	"github.com/dapr/components-contrib/tests/certification/flow/sidecar"
+	"github.com/JY29/components-contrib/tests/certification/embedded"
+	"github.com/JY29/components-contrib/tests/certification/flow"
+	"github.com/JY29/components-contrib/tests/certification/flow/app"
+	"github.com/JY29/components-contrib/tests/certification/flow/sidecar"
 
 	bindings_loader "github.com/dapr/dapr/pkg/components/bindings"
 	dapr_testing "github.com/dapr/dapr/pkg/testing"

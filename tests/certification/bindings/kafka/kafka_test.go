@@ -27,8 +27,8 @@ import (
 
 	// Pub/Sub.
 
-	"github.com/dapr/components-contrib/bindings"
-	bindings_kafka "github.com/dapr/components-contrib/bindings/kafka"
+	"github.com/JY29/components-contrib/bindings"
+	bindings_kafka "github.com/JY29/components-contrib/bindings/kafka"
 	bindings_loader "github.com/dapr/dapr/pkg/components/bindings"
 
 	// Dapr runtime and Go-SDK
@@ -39,15 +39,15 @@ import (
 	kit_retry "github.com/dapr/kit/retry"
 
 	// Certification testing runnables
-	"github.com/dapr/components-contrib/tests/certification/embedded"
-	"github.com/dapr/components-contrib/tests/certification/flow"
-	"github.com/dapr/components-contrib/tests/certification/flow/app"
-	"github.com/dapr/components-contrib/tests/certification/flow/dockercompose"
-	"github.com/dapr/components-contrib/tests/certification/flow/network"
-	"github.com/dapr/components-contrib/tests/certification/flow/retry"
-	"github.com/dapr/components-contrib/tests/certification/flow/sidecar"
-	"github.com/dapr/components-contrib/tests/certification/flow/simulate"
-	"github.com/dapr/components-contrib/tests/certification/flow/watcher"
+	"github.com/JY29/components-contrib/tests/certification/embedded"
+	"github.com/JY29/components-contrib/tests/certification/flow"
+	"github.com/JY29/components-contrib/tests/certification/flow/app"
+	"github.com/JY29/components-contrib/tests/certification/flow/dockercompose"
+	"github.com/JY29/components-contrib/tests/certification/flow/network"
+	"github.com/JY29/components-contrib/tests/certification/flow/retry"
+	"github.com/JY29/components-contrib/tests/certification/flow/sidecar"
+	"github.com/JY29/components-contrib/tests/certification/flow/simulate"
+	"github.com/JY29/components-contrib/tests/certification/flow/watcher"
 )
 
 const (

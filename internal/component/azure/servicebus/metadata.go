@@ -21,8 +21,8 @@ import (
 
 	sbadmin "github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/admin"
 
-	"github.com/dapr/components-contrib/internal/utils"
-	mdutils "github.com/dapr/components-contrib/metadata"
+	"github.com/JY29/components-contrib/internal/utils"
+	mdutils "github.com/JY29/components-contrib/metadata"
 	"github.com/dapr/kit/logger"
 	"github.com/dapr/kit/ptr"
 )

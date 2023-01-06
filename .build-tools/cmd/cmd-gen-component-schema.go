@@ -20,7 +20,7 @@ import (
 	"github.com/invopop/jsonschema"
 	"github.com/spf13/cobra"
 
-	"github.com/dapr/components-contrib/build-tools/pkg/metadataschema"
+	"github.com/JY29/components-contrib/build-tools/pkg/metadataschema"
 )
 
 // genComponentSchemaCmd represents the genComponentSchema command
@@ -33,7 +33,7 @@ The result is written to stdout.`,
 		// Generate the schema from the struct
 		reflector := &jsonschema.Reflector{}
 		reflector.ExpandedStruct = true
-		err := reflector.AddGoComments("github.com/dapr/components-contrib/build-tools", "./pkg/metadataschema")
+		err := reflector.AddGoComments("github.com/JY29/components-contrib/build-tools", "./pkg/metadataschema")
 		if err != nil {
 			panic(err)
 		}

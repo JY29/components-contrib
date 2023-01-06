@@ -21,8 +21,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/dapr/components-contrib/build-tools/pkg/componentmetadata"
-	"github.com/dapr/components-contrib/build-tools/pkg/metadataschema"
+	"github.com/JY29/components-contrib/build-tools/pkg/componentmetadata"
+	"github.com/JY29/components-contrib/build-tools/pkg/metadataschema"
 )
 
 // bundleComponentMetadataCmd represents the bundle-component-metadata command

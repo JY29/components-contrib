@@ -31,10 +31,10 @@ import (
 	"github.com/Azure/azure-storage-blob-go/azblob"
 	"github.com/Azure/go-autorest/autorest/azure"
 
-	azauth "github.com/dapr/components-contrib/internal/authentication/azure"
-	"github.com/dapr/components-contrib/internal/utils"
-	contribMetadata "github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/pubsub"
+	azauth "github.com/JY29/components-contrib/internal/authentication/azure"
+	"github.com/JY29/components-contrib/internal/utils"
+	contribMetadata "github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/pubsub"
 	"github.com/dapr/kit/logger"
 	"github.com/dapr/kit/retry"
 )

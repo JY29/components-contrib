@@ -22,8 +22,8 @@ import (
 	servicebus "github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus"
 	backoff "github.com/cenkalti/backoff/v4"
 
-	"github.com/dapr/components-contrib/bindings"
-	impl "github.com/dapr/components-contrib/internal/component/azure/servicebus"
+	"github.com/JY29/components-contrib/bindings"
+	impl "github.com/JY29/components-contrib/internal/component/azure/servicebus"
 	"github.com/dapr/kit/logger"
 )
 

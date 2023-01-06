@@ -19,8 +19,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/pubsub"
+	"github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/pubsub"
 	"github.com/dapr/kit/logger"
 )
 

@@ -22,8 +22,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/lock"
-	"github.com/dapr/components-contrib/metadata"
+	"github.com/JY29/components-contrib/lock"
+	"github.com/JY29/components-contrib/metadata"
 	"github.com/dapr/kit/logger"
 )
 

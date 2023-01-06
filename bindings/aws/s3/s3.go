@@ -32,9 +32,9 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
 	"github.com/google/uuid"
 
-	"github.com/dapr/components-contrib/bindings"
-	awsAuth "github.com/dapr/components-contrib/internal/authentication/aws"
-	"github.com/dapr/components-contrib/internal/utils"
+	"github.com/JY29/components-contrib/bindings"
+	awsAuth "github.com/JY29/components-contrib/internal/authentication/aws"
+	"github.com/JY29/components-contrib/internal/utils"
 	"github.com/dapr/kit/logger"
 )
 

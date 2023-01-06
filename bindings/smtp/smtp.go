@@ -23,7 +23,7 @@ import (
 
 	"gopkg.in/gomail.v2"
 
-	"github.com/dapr/components-contrib/bindings"
+	"github.com/JY29/components-contrib/bindings"
 	"github.com/dapr/kit/logger"
 )
 

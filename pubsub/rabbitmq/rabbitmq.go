@@ -27,8 +27,8 @@ import (
 
 	"github.com/dapr/kit/logger"
 
-	contribMetadata "github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/pubsub"
+	contribMetadata "github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/pubsub"
 )
 
 const (

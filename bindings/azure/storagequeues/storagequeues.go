@@ -23,9 +23,9 @@ import (
 
 	"github.com/Azure/azure-storage-queue-go/azqueue"
 
-	"github.com/dapr/components-contrib/bindings"
-	azauth "github.com/dapr/components-contrib/internal/authentication/azure"
-	contribMetadata "github.com/dapr/components-contrib/metadata"
+	"github.com/JY29/components-contrib/bindings"
+	azauth "github.com/JY29/components-contrib/internal/authentication/azure"
+	contribMetadata "github.com/JY29/components-contrib/metadata"
 	"github.com/dapr/kit/logger"
 	"github.com/dapr/kit/ptr"
 )

@@ -13,7 +13,7 @@ limitations under the License.
 
 package lock
 
-import "github.com/dapr/components-contrib/metadata"
+import "github.com/JY29/components-contrib/metadata"
 
 // Metadata contains a lock store specific set of metadata property.
 type Metadata struct {

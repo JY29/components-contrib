@@ -23,8 +23,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 
-	cosmosdbbinding "github.com/dapr/components-contrib/bindings/azure/cosmosdb"
-	secretstore_env "github.com/dapr/components-contrib/secretstores/local/env"
+	cosmosdbbinding "github.com/JY29/components-contrib/bindings/azure/cosmosdb"
+	secretstore_env "github.com/JY29/components-contrib/secretstores/local/env"
 	bindings_loader "github.com/dapr/dapr/pkg/components/bindings"
 	secretstores_loader "github.com/dapr/dapr/pkg/components/secretstores"
 	"github.com/dapr/dapr/pkg/runtime"
@@ -32,9 +32,9 @@ import (
 	daprsdk "github.com/dapr/go-sdk/client"
 	"github.com/dapr/kit/logger"
 
-	"github.com/dapr/components-contrib/tests/certification/embedded"
-	"github.com/dapr/components-contrib/tests/certification/flow"
-	"github.com/dapr/components-contrib/tests/certification/flow/sidecar"
+	"github.com/JY29/components-contrib/tests/certification/embedded"
+	"github.com/JY29/components-contrib/tests/certification/flow"
+	"github.com/JY29/components-contrib/tests/certification/flow/sidecar"
 
 	"github.com/a8m/documentdb"
 )

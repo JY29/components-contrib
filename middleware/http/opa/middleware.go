@@ -30,9 +30,9 @@ import (
 	"github.com/open-policy-agent/opa/rego"
 	"k8s.io/utils/strings/slices"
 
-	"github.com/dapr/components-contrib/internal/httputils"
-	"github.com/dapr/components-contrib/internal/utils"
-	"github.com/dapr/components-contrib/middleware"
+	"github.com/JY29/components-contrib/internal/httputils"
+	"github.com/JY29/components-contrib/internal/utils"
+	"github.com/JY29/components-contrib/middleware"
 	"github.com/dapr/kit/logger"
 )
 

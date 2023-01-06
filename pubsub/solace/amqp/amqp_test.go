@@ -19,9 +19,9 @@ import (
 	"errors"
 	"testing"
 
-	mdata "github.com/dapr/components-contrib/metadata"
+	mdata "github.com/JY29/components-contrib/metadata"
 
-	"github.com/dapr/components-contrib/pubsub"
+	"github.com/JY29/components-contrib/pubsub"
 	"github.com/dapr/kit/logger"
 
 	"github.com/stretchr/testify/assert"

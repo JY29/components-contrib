@@ -23,8 +23,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/bindings"
-	"github.com/dapr/components-contrib/metadata"
+	"github.com/JY29/components-contrib/bindings"
+	"github.com/JY29/components-contrib/metadata"
 	"github.com/dapr/kit/logger"
 )
 
@@ -136,7 +136,7 @@ func TestMysqlIntegration(t *testing.T) {
 		// verify timestamp
 		ts, ok := result[0].(map[string]interface{})["ts"].(string)
 		assert.True(t, ok)
-		// have to use custom layout to parse timestamp, see this: https://github.com/dapr/components-contrib/pull/615
+		// have to use custom layout to parse timestamp, see this: https://github.com/JY29/components-contrib/pull/615
 		var tt time.Time
 		tt, err = time.Parse("2006-01-02T15:04:05Z", ts)
 		assert.Nil(t, err)

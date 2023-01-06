@@ -18,20 +18,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dapr/components-contrib/tests/certification/flow/dockercompose"
+	"github.com/JY29/components-contrib/tests/certification/flow/dockercompose"
 	"github.com/dapr/kit/logger"
 	"github.com/nacos-group/nacos-sdk-go/v2/common/constant"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/bindings"
-	nacosbinding "github.com/dapr/components-contrib/bindings/alicloud/nacos"
+	"github.com/JY29/components-contrib/bindings"
+	nacosbinding "github.com/JY29/components-contrib/bindings/alicloud/nacos"
 	bindings_loader "github.com/dapr/dapr/pkg/components/bindings"
 	"github.com/dapr/dapr/pkg/runtime"
 	daprsdk "github.com/dapr/go-sdk/client"
 
-	"github.com/dapr/components-contrib/tests/certification/embedded"
-	"github.com/dapr/components-contrib/tests/certification/flow"
-	"github.com/dapr/components-contrib/tests/certification/flow/sidecar"
+	"github.com/JY29/components-contrib/tests/certification/embedded"
+	"github.com/JY29/components-contrib/tests/certification/flow"
+	"github.com/JY29/components-contrib/tests/certification/flow/sidecar"
 
 	nacosclient "github.com/nacos-group/nacos-sdk-go/v2/clients"
 	"github.com/nacos-group/nacos-sdk-go/v2/vo"

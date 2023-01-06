@@ -20,7 +20,7 @@ package webhook
 import (
 	"errors"
 
-	"github.com/dapr/components-contrib/metadata"
+	"github.com/JY29/components-contrib/metadata"
 )
 
 type Settings struct {

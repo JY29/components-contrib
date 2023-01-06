@@ -28,9 +28,9 @@ import (
 	"github.com/vmware/vmware-go-kcl/clientlibrary/interfaces"
 	"github.com/vmware/vmware-go-kcl/clientlibrary/worker"
 
-	"github.com/dapr/components-contrib/bindings"
-	awsAuth "github.com/dapr/components-contrib/internal/authentication/aws"
-	"github.com/dapr/components-contrib/metadata"
+	"github.com/JY29/components-contrib/bindings"
+	awsAuth "github.com/JY29/components-contrib/internal/authentication/aws"
+	"github.com/JY29/components-contrib/metadata"
 	"github.com/dapr/kit/logger"
 )
 

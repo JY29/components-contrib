@@ -21,7 +21,7 @@ import (
 
 	"github.com/tylertreat/comcast/throttler"
 
-	"github.com/dapr/components-contrib/tests/certification/flow"
+	"github.com/JY29/components-contrib/tests/certification/flow"
 )
 
 func WaitForAddresses(timeout time.Duration, addresses ...string) flow.Runnable {

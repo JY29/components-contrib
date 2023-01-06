@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dapr/components-contrib/secretstores"
-	"github.com/dapr/components-contrib/tests/certification/embedded"
-	"github.com/dapr/components-contrib/tests/certification/flow"
-	"github.com/dapr/components-contrib/tests/certification/flow/dockercompose"
-	"github.com/dapr/components-contrib/tests/certification/flow/network"
-	"github.com/dapr/components-contrib/tests/certification/flow/sidecar"
+	"github.com/JY29/components-contrib/secretstores"
+	"github.com/JY29/components-contrib/tests/certification/embedded"
+	"github.com/JY29/components-contrib/tests/certification/flow"
+	"github.com/JY29/components-contrib/tests/certification/flow/dockercompose"
+	"github.com/JY29/components-contrib/tests/certification/flow/network"
+	"github.com/JY29/components-contrib/tests/certification/flow/sidecar"
 )
 
 const (

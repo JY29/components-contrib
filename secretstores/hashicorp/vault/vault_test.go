@@ -21,8 +21,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/secretstores"
+	"github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/secretstores"
 	"github.com/dapr/kit/logger"
 )
 

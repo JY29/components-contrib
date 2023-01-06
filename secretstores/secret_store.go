@@ -17,7 +17,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/dapr/components-contrib/health"
+	"github.com/JY29/components-contrib/health"
 )
 
 // SecretStore is the interface for a component that handles secrets management.

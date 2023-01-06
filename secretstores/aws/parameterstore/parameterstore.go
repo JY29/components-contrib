@@ -22,9 +22,9 @@ import (
 	"github.com/aws/aws-sdk-go/service/ssm"
 	"github.com/aws/aws-sdk-go/service/ssm/ssmiface"
 
-	awsAuth "github.com/dapr/components-contrib/internal/authentication/aws"
-	"github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/secretstores"
+	awsAuth "github.com/JY29/components-contrib/internal/authentication/aws"
+	"github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/secretstores"
 	"github.com/dapr/kit/logger"
 )
 

@@ -21,7 +21,7 @@ import (
 	"github.com/Azure/azure-storage-queue-go/azqueue"
 	"github.com/Azure/go-autorest/autorest/azure"
 
-	mdutils "github.com/dapr/components-contrib/metadata"
+	mdutils "github.com/JY29/components-contrib/metadata"
 	"github.com/dapr/kit/logger"
 )
 

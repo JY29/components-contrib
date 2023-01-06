@@ -17,13 +17,13 @@ import (
 	"fmt"
 	"testing"
 
-	cosmosdb "github.com/dapr/components-contrib/state/azure/cosmosdb"
-	"github.com/dapr/components-contrib/tests/certification/embedded"
-	"github.com/dapr/components-contrib/tests/certification/flow"
+	cosmosdb "github.com/JY29/components-contrib/state/azure/cosmosdb"
+	"github.com/JY29/components-contrib/tests/certification/embedded"
+	"github.com/JY29/components-contrib/tests/certification/flow"
 	"github.com/dapr/go-sdk/client"
 
-	secretstore_env "github.com/dapr/components-contrib/secretstores/local/env"
-	"github.com/dapr/components-contrib/tests/certification/flow/sidecar"
+	secretstore_env "github.com/JY29/components-contrib/secretstores/local/env"
+	"github.com/JY29/components-contrib/tests/certification/flow/sidecar"
 	secretstores_loader "github.com/dapr/dapr/pkg/components/secretstores"
 	state_loader "github.com/dapr/dapr/pkg/components/state"
 	"github.com/dapr/dapr/pkg/runtime"

@@ -21,9 +21,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/dapr/components-contrib/bindings"
-	"github.com/dapr/components-contrib/bindings/zeebe/command"
-	"github.com/dapr/components-contrib/tests/e2e/bindings/zeebe"
+	"github.com/JY29/components-contrib/bindings"
+	"github.com/JY29/components-contrib/bindings/zeebe/command"
+	"github.com/JY29/components-contrib/tests/e2e/bindings/zeebe"
 	"github.com/stretchr/testify/assert"
 )
 

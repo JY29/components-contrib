@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/dapr/components-contrib/build-tools/pkg/metadataschema/component-metadata",
+  "$id": "https://github.com/JY29/components-contrib/build-tools/pkg/metadataschema/component-metadata",
   "$defs": {
     "AuthenticationProfile": {
       "properties": {

@@ -20,9 +20,9 @@ import (
 	"strconv"
 	"strings"
 
-	rediscomponent "github.com/dapr/components-contrib/internal/component/redis"
-	"github.com/dapr/components-contrib/state"
-	"github.com/dapr/components-contrib/state/query"
+	rediscomponent "github.com/JY29/components-contrib/internal/component/redis"
+	"github.com/JY29/components-contrib/state"
+	"github.com/JY29/components-contrib/state/query"
 )
 
 var ErrMultipleSortBy error = errors.New("multiple SORTBY steps are not allowed. Sort multiple fields in a single step")

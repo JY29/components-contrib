@@ -1,4 +1,4 @@
-module github.com/dapr/components-contrib/build-tools
+module github.com/JY29/components-contrib/build-tools
 
 go 1.19
 

@@ -21,7 +21,7 @@ import (
 	azservicebus "github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus"
 	"github.com/google/uuid"
 
-	"github.com/dapr/components-contrib/pubsub"
+	"github.com/JY29/components-contrib/pubsub"
 )
 
 // NewPubsubMessageFromASBMessage returns a pubsub.NewMessage from a message received from ASB.

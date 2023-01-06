@@ -25,7 +25,7 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	mqw "github.com/cinience/go_rocketmq"
 
-	"github.com/dapr/components-contrib/bindings"
+	"github.com/JY29/components-contrib/bindings"
 	"github.com/dapr/kit/logger"
 	"github.com/dapr/kit/retry"
 )
@@ -129,7 +129,7 @@ func (a *AliCloudRocketMQ) Read(ctx context.Context, handler bindings.Handler) e
 	return nil
 }
 
-// Close implements cancel all listeners, see https://github.com/dapr/components-contrib/issues/779
+// Close implements cancel all listeners, see https://github.com/JY29/components-contrib/issues/779
 func (a *AliCloudRocketMQ) Close() error {
 	a.cancel()
 

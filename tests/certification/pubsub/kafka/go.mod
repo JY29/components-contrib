@@ -1,12 +1,12 @@
-module github.com/dapr/components-contrib/tests/certification/pubsub/kafka
+module github.com/JY29/components-contrib/tests/certification/pubsub/kafka
 
 go 1.19
 
 require (
 	github.com/Shopify/sarama v1.37.2
 	github.com/cenkalti/backoff/v4 v4.2.0
-	github.com/dapr/components-contrib v1.9.6
-	github.com/dapr/components-contrib/tests/certification v0.0.0-20220519061249-c2cb1dad5bb0
+	github.com/JY29/components-contrib v1.9.6
+	github.com/JY29/components-contrib/tests/certification v0.0.0-20220519061249-c2cb1dad5bb0
 	github.com/dapr/dapr v1.9.4-0.20221221150048-640772d83bd1
 	github.com/dapr/go-sdk v1.6.0
 	github.com/dapr/kit v0.0.3
@@ -155,6 +155,6 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/dapr/components-contrib/tests/certification => ../../
+replace github.com/JY29/components-contrib/tests/certification => ../../
 
-replace github.com/dapr/components-contrib => ../../../../
+replace github.com/JY29/components-contrib => ../../../../

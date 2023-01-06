@@ -23,8 +23,8 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/data/azcosmos"
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/dapr/components-contrib/state"
-	"github.com/dapr/components-contrib/state/query"
+	"github.com/JY29/components-contrib/state"
+	"github.com/JY29/components-contrib/state/query"
 )
 
 // Internal query object is created here since azcosmos has no notion of a query object

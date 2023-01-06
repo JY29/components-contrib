@@ -29,8 +29,8 @@ import (
 	"github.com/Azure/azure-storage-blob-go/azblob"
 	"github.com/Azure/go-autorest/autorest/azure"
 
-	"github.com/dapr/components-contrib/bindings"
-	azauth "github.com/dapr/components-contrib/internal/authentication/azure"
+	"github.com/JY29/components-contrib/bindings"
+	azauth "github.com/JY29/components-contrib/internal/authentication/azure"
 	"github.com/dapr/kit/logger"
 )
 

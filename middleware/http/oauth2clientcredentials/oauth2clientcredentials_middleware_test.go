@@ -24,8 +24,8 @@ import (
 	"github.com/stretchr/testify/require"
 	oauth2 "golang.org/x/oauth2"
 
-	"github.com/dapr/components-contrib/middleware"
-	mock "github.com/dapr/components-contrib/middleware/http/oauth2clientcredentials/mocks"
+	"github.com/JY29/components-contrib/middleware"
+	mock "github.com/JY29/components-contrib/middleware/http/oauth2clientcredentials/mocks"
 	"github.com/dapr/kit/logger"
 )
 

@@ -22,7 +22,7 @@ import (
 	servicebus "github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus"
 	sbadmin "github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/admin"
 
-	azauth "github.com/dapr/components-contrib/internal/authentication/azure"
+	azauth "github.com/JY29/components-contrib/internal/authentication/azure"
 	"github.com/dapr/kit/logger"
 )
 

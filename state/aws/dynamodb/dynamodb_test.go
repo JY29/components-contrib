@@ -28,7 +28,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/state"
+	"github.com/JY29/components-contrib/state"
 	"github.com/dapr/kit/logger"
 )
 

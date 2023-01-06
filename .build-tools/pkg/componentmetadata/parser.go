@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/dapr/components-contrib/build-tools/pkg/metadataschema"
+	"github.com/JY29/components-contrib/build-tools/pkg/metadataschema"
 	"github.com/xeipuuv/gojsonschema"
 	"sigs.k8s.io/yaml"
 )

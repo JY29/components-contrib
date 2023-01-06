@@ -10,15 +10,15 @@ import (
 	"path"
 	"testing"
 
-	"github.com/dapr/components-contrib/middleware/http/wasm"
+	"github.com/JY29/components-contrib/middleware/http/wasm"
 
 	"github.com/dapr/kit/logger"
 
-	"github.com/dapr/components-contrib/metadata"
+	"github.com/JY29/components-contrib/metadata"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dapr/components-contrib/middleware"
+	"github.com/JY29/components-contrib/middleware"
 )
 
 var guestWasm map[string][]byte

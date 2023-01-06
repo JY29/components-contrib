@@ -1,11 +1,11 @@
-module github.com/dapr/components-contrib/tests/certification/bindings/azure/cosmosdb
+module github.com/JY29/components-contrib/tests/certification/bindings/azure/cosmosdb
 
 go 1.19
 
 require (
 	github.com/a8m/documentdb v1.3.1-0.20220405205223-5b41ba0aaeb1
-	github.com/dapr/components-contrib v1.9.6
-	github.com/dapr/components-contrib/tests/certification v0.0.0-20211130185200-4918900c09e1
+	github.com/JY29/components-contrib v1.9.6
+	github.com/JY29/components-contrib/tests/certification v0.0.0-20211130185200-4918900c09e1
 	github.com/dapr/dapr v1.9.4-0.20221221150048-640772d83bd1
 	github.com/dapr/go-sdk v1.6.0
 	github.com/dapr/kit v0.0.3
@@ -160,6 +160,6 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/dapr/components-contrib/tests/certification => ../../../
+replace github.com/JY29/components-contrib/tests/certification => ../../../
 
-replace github.com/dapr/components-contrib => ../../../../../
+replace github.com/JY29/components-contrib => ../../../../../

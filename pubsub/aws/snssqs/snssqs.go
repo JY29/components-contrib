@@ -32,8 +32,8 @@ import (
 
 	gonanoid "github.com/matoous/go-nanoid/v2"
 
-	awsAuth "github.com/dapr/components-contrib/internal/authentication/aws"
-	"github.com/dapr/components-contrib/pubsub"
+	awsAuth "github.com/JY29/components-contrib/internal/authentication/aws"
+	"github.com/JY29/components-contrib/pubsub"
 	"github.com/dapr/kit/logger"
 )
 

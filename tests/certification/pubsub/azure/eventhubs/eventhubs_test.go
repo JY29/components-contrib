@@ -28,8 +28,8 @@ import (
 
 	// Pub-Sub.
 
-	pubsub_evethubs "github.com/dapr/components-contrib/pubsub/azure/eventhubs"
-	secretstore_env "github.com/dapr/components-contrib/secretstores/local/env"
+	pubsub_evethubs "github.com/JY29/components-contrib/pubsub/azure/eventhubs"
+	secretstore_env "github.com/JY29/components-contrib/secretstores/local/env"
 	pubsub_loader "github.com/dapr/dapr/pkg/components/pubsub"
 	secretstores_loader "github.com/dapr/dapr/pkg/components/secretstores"
 	"github.com/dapr/kit/logger"
@@ -40,12 +40,12 @@ import (
 	"github.com/dapr/go-sdk/service/common"
 
 	// Certification testing runnables
-	"github.com/dapr/components-contrib/tests/certification/embedded"
-	"github.com/dapr/components-contrib/tests/certification/flow"
-	"github.com/dapr/components-contrib/tests/certification/flow/app"
-	"github.com/dapr/components-contrib/tests/certification/flow/sidecar"
-	"github.com/dapr/components-contrib/tests/certification/flow/simulate"
-	"github.com/dapr/components-contrib/tests/certification/flow/watcher"
+	"github.com/JY29/components-contrib/tests/certification/embedded"
+	"github.com/JY29/components-contrib/tests/certification/flow"
+	"github.com/JY29/components-contrib/tests/certification/flow/app"
+	"github.com/JY29/components-contrib/tests/certification/flow/sidecar"
+	"github.com/JY29/components-contrib/tests/certification/flow/simulate"
+	"github.com/JY29/components-contrib/tests/certification/flow/watcher"
 )
 
 const (

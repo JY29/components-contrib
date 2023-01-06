@@ -14,7 +14,7 @@ limitations under the License.
 package bindings
 
 import (
-	"github.com/dapr/components-contrib/state"
+	"github.com/JY29/components-contrib/state"
 )
 
 // ReadResponse is the return object from an dapr input binding.

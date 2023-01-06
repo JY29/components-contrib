@@ -1,4 +1,4 @@
-module github.com/dapr/components-contrib/middleware/wasm/internal
+module github.com/JY29/components-contrib/middleware/wasm/internal
 
 go 1.19
 

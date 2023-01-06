@@ -24,8 +24,8 @@ import (
 	natsserver "github.com/nats-io/nats-server/v2/test"
 	"github.com/nats-io/nats.go"
 
-	"github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/state"
+	"github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/state"
 )
 
 type tLogger interface {

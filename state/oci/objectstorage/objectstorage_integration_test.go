@@ -1,7 +1,7 @@
 package objectstorage
 
 // run the test for example in ~/dapr-dev/components-contrib
-// go test -v github.com/dapr/components-contrib/state/oci/objectstorage.
+// go test -v github.com/JY29/components-contrib/state/oci/objectstorage.
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/state"
+	"github.com/JY29/components-contrib/state"
 	"github.com/dapr/kit/logger"
 )
 

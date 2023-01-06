@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/state/query"
+	"github.com/JY29/components-contrib/state/query"
 )
 
 func TestPostgresqlQueryBuildQuery(t *testing.T) {

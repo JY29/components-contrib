@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/dapr/components-contrib/pubsub"
+	"github.com/JY29/components-contrib/pubsub"
 	"github.com/dapr/kit/logger"
 )
 

@@ -23,7 +23,7 @@ import (
 
 	graphql "github.com/machinebox/graphql"
 
-	"github.com/dapr/components-contrib/bindings"
+	"github.com/JY29/components-contrib/bindings"
 	"github.com/dapr/kit/logger"
 )
 

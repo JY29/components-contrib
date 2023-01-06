@@ -17,7 +17,7 @@ import (
 	_ "embed"
 	"encoding/json"
 
-	"github.com/dapr/components-contrib/build-tools/cmd"
+	"github.com/JY29/components-contrib/build-tools/cmd"
 )
 
 //go:embed component-folders.json

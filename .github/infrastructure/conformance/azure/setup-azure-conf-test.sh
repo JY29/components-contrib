@@ -348,7 +348,7 @@ echo "INFO: SQL_SERVER_NAME=${SQL_SERVER_NAME}"
 SQL_SERVER_ADMIN_NAME="$(az deployment sub show --name "${DEPLOY_NAME}" --query "properties.outputs.sqlServerAdminName.value" --output tsv)"
 echo "INFO: SQL_SERVER_ADMIN_NAME=${SQL_SERVER_ADMIN_NAME}"
 # Azure Container Registry is not currently needed.
-# If needed again, look at https://github.com/dapr/components-contrib/tree/a8133088467fc29e1929a5dab396b11cf123a38b/.github/infrastructure
+# If needed again, look at https://github.com/JY29/components-contrib/tree/a8133088467fc29e1929a5dab396b11cf123a38b/.github/infrastructure
 
 # Give the service principal used by the SDK write access to the entire resource group
 MSYS_NO_PATHCONV=1 az role assignment create --assignee "${SDK_AUTH_SP_ID}" --role "Contributor" --scope "/subscriptions/${SUB_ID}/resourceGroups/${RESOURCE_GROUP_NAME}"

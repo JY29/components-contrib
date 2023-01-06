@@ -26,16 +26,16 @@ import (
 
 	// SecretStores
 
-	akv "github.com/dapr/components-contrib/secretstores/azure/keyvault"
-	secretstore_env "github.com/dapr/components-contrib/secretstores/local/env"
+	akv "github.com/JY29/components-contrib/secretstores/azure/keyvault"
+	secretstore_env "github.com/JY29/components-contrib/secretstores/local/env"
 	secretstores_loader "github.com/dapr/dapr/pkg/components/secretstores"
 	"github.com/dapr/dapr/pkg/runtime"
 	dapr_testing "github.com/dapr/dapr/pkg/testing"
 	"github.com/dapr/kit/logger"
 
-	"github.com/dapr/components-contrib/tests/certification/embedded"
-	"github.com/dapr/components-contrib/tests/certification/flow"
-	"github.com/dapr/components-contrib/tests/certification/flow/sidecar"
+	"github.com/JY29/components-contrib/tests/certification/embedded"
+	"github.com/JY29/components-contrib/tests/certification/flow"
+	"github.com/JY29/components-contrib/tests/certification/flow/sidecar"
 	"github.com/dapr/go-sdk/client"
 )
 

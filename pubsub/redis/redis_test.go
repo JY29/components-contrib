@@ -22,11 +22,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	mdata "github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/pubsub"
+	mdata "github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/pubsub"
 	"github.com/dapr/kit/logger"
 
-	internalredis "github.com/dapr/components-contrib/internal/component/redis"
+	internalredis "github.com/JY29/components-contrib/internal/component/redis"
 )
 
 func getFakeProperties() map[string]string {

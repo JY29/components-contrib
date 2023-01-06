@@ -19,9 +19,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/dapr/components-contrib/internal/httputils"
-	"github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/middleware"
+	"github.com/JY29/components-contrib/internal/httputils"
+	"github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/middleware"
 	"github.com/dapr/kit/logger"
 
 	"github.com/stretchr/testify/assert"

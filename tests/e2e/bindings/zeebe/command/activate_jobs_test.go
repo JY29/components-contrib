@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dapr/components-contrib/tests/e2e/bindings/zeebe"
+	"github.com/JY29/components-contrib/tests/e2e/bindings/zeebe"
 	"github.com/stretchr/testify/assert"
 )
 

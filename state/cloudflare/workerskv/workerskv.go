@@ -28,10 +28,10 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"golang.org/x/exp/slices"
 
-	"github.com/dapr/components-contrib/internal/component/cloudflare/workers"
-	"github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/state"
-	stateutils "github.com/dapr/components-contrib/state/utils"
+	"github.com/JY29/components-contrib/internal/component/cloudflare/workers"
+	"github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/state"
+	stateutils "github.com/JY29/components-contrib/state/utils"
 	"github.com/dapr/kit/logger"
 )
 

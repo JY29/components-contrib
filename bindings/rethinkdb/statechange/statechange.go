@@ -23,8 +23,8 @@ import (
 	r "github.com/dancannon/gorethink"
 	"github.com/pkg/errors"
 
-	"github.com/dapr/components-contrib/bindings"
-	"github.com/dapr/components-contrib/internal/utils"
+	"github.com/JY29/components-contrib/bindings"
+	"github.com/JY29/components-contrib/internal/utils"
 	"github.com/dapr/kit/logger"
 )
 

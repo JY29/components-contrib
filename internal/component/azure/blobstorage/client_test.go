@@ -18,7 +18,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	azauth "github.com/dapr/components-contrib/internal/authentication/azure"
+	azauth "github.com/JY29/components-contrib/internal/authentication/azure"
 	"github.com/dapr/kit/logger"
 )
 

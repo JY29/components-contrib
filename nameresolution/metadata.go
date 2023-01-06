@@ -13,7 +13,7 @@ limitations under the License.
 
 package nameresolution
 
-import "github.com/dapr/components-contrib/metadata"
+import "github.com/JY29/components-contrib/metadata"
 
 const (
 	// MDNSInstanceName is the instance name which is broadcasted.

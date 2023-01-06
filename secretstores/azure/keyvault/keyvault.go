@@ -24,9 +24,9 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
 	"github.com/Azure/azure-sdk-for-go/sdk/keyvault/azsecrets"
 
-	azauth "github.com/dapr/components-contrib/internal/authentication/azure"
-	"github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/secretstores"
+	azauth "github.com/JY29/components-contrib/internal/authentication/azure"
+	"github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/secretstores"
 	"github.com/dapr/kit/logger"
 )
 

@@ -1,9 +1,9 @@
-module github.com/dapr/components-contrib/tests/e2e/pubsub/jetstream
+module github.com/JY29/components-contrib/tests/e2e/pubsub/jetstream
 
 go 1.19
 
 require (
-	github.com/dapr/components-contrib v1.9.1-0.20221220192417-c156d4ba04e4
+	github.com/JY29/components-contrib v1.9.1-0.20221220192417-c156d4ba04e4
 	github.com/dapr/kit v0.0.3
 )
 
@@ -20,4 +20,4 @@ require (
 	golang.org/x/sys v0.3.0 // indirect
 )
 
-replace github.com/dapr/components-contrib => ../../../../
+replace github.com/JY29/components-contrib => ../../../../

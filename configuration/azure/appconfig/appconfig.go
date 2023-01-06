@@ -28,8 +28,8 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/data/azappconfig"
 	"github.com/google/uuid"
 
-	"github.com/dapr/components-contrib/configuration"
-	azauth "github.com/dapr/components-contrib/internal/authentication/azure"
+	"github.com/JY29/components-contrib/configuration"
+	azauth "github.com/JY29/components-contrib/internal/authentication/azure"
 
 	"github.com/dapr/kit/logger"
 )

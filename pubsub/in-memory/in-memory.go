@@ -17,8 +17,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/dapr/components-contrib/internal/eventbus"
-	"github.com/dapr/components-contrib/pubsub"
+	"github.com/JY29/components-contrib/internal/eventbus"
+	"github.com/JY29/components-contrib/pubsub"
 	"github.com/dapr/kit/logger"
 )
 

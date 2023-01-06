@@ -20,9 +20,9 @@ import (
 
 	oidc "github.com/coreos/go-oidc"
 
-	"github.com/dapr/components-contrib/internal/httputils"
-	mdutils "github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/middleware"
+	"github.com/JY29/components-contrib/internal/httputils"
+	mdutils "github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/middleware"
 	"github.com/dapr/kit/logger"
 )
 

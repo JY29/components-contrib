@@ -13,7 +13,7 @@ limitations under the License.
 
 package state
 
-import "github.com/dapr/components-contrib/metadata"
+import "github.com/JY29/components-contrib/metadata"
 
 // Metadata contains a state store specific set of metadata properties.
 type Metadata struct {

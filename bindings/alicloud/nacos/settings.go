@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dapr/components-contrib/metadata"
+	"github.com/JY29/components-contrib/metadata"
 )
 
 type Settings struct {

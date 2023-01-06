@@ -30,12 +30,12 @@ import (
 	"github.com/google/uuid"
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/dapr/components-contrib/contenttype"
-	"github.com/dapr/components-contrib/internal/authentication/azure"
-	contribmeta "github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/state"
-	"github.com/dapr/components-contrib/state/query"
-	stateutils "github.com/dapr/components-contrib/state/utils"
+	"github.com/JY29/components-contrib/contenttype"
+	"github.com/JY29/components-contrib/internal/authentication/azure"
+	contribmeta "github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/state"
+	"github.com/JY29/components-contrib/state/query"
+	stateutils "github.com/JY29/components-contrib/state/utils"
 	"github.com/dapr/kit/logger"
 	"github.com/dapr/kit/ptr"
 )

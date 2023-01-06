@@ -18,8 +18,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dapr/components-contrib/bindings"
-	rediscomponent "github.com/dapr/components-contrib/internal/component/redis"
+	"github.com/JY29/components-contrib/bindings"
+	rediscomponent "github.com/JY29/components-contrib/internal/component/redis"
 	"github.com/dapr/kit/logger"
 )
 

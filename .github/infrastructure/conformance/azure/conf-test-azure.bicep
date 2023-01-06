@@ -64,7 +64,7 @@ resource confTestRg 'Microsoft.Resources/resourceGroups@2021-04-01' = {
 
 // Azure Container Registry is not currently used, but may be required again in the future.
 // If so, look at the latest commit where it was present:
-// https://github.com/dapr/components-contrib/tree/a8133088467fc29e1929a5dab396b11cf123a38b/.github/infrastructure
+// https://github.com/JY29/components-contrib/tree/a8133088467fc29e1929a5dab396b11cf123a38b/.github/infrastructure
 
 module cosmosDb 'conf-test-azure-cosmosdb.bicep' = {
   name: cosmosDbName

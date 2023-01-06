@@ -166,5 +166,5 @@ docker-compose -f docker-compose-hashicorp-vault.yml up --remove-orphans
 
 [HashiCorp Vault Secret Store]: https://docs.dapr.io/reference/components-reference/supported-secret-stores/hashicorp-vault/
 [features]: https://docs.dapr.io/reference/components-reference/supported-secret-stores/
-[conformance]: https://github.com/dapr/components-contrib/pull/2031
+[conformance]: https://github.com/JY29/components-contrib/pull/2031
 [vault-docker]: https://hub.docker.com/_/vault/

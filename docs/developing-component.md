@@ -18,7 +18,7 @@ mkdir dapr
 git clone https://github.com/dapr/dapr.git dapr/dapr
 
 # Clone component-contrib
-git clone https://github.com/dapr/components-contrib.git dapr/components-contrib
+git clone https://github.com/JY29/components-contrib.git dapr/components-contrib
 
 ```
 
@@ -33,12 +33,12 @@ git clone https://github.com/dapr/components-contrib.git dapr/components-contrib
 
 | Type | Directory | Reference | Docs |
 |------|-----------|--------------------------|------|
-| State | [components-contrib/state](https://github.com/dapr/components-contrib/tree/master/state) | [Redis](https://github.com/dapr/components-contrib/tree/master/state/redis) | [concept](https://docs.dapr.io/developing-applications/building-blocks/state-management/state-management-overview/), [howto](https://docs.dapr.io/developing-applications/building-blocks/state-management/howto-get-save-state/), [api spec](https://docs.dapr.io/reference/api/state_api/) |
-| Pubsub | [components-contrib/pubsub](https://github.com/dapr/components-contrib/tree/master/pubsub) | [Redis](https://github.com/dapr/components-contrib/tree/master/pubsub/redis) | [concept](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/), [howto](https://docs.dapr.io/developing-applications/building-blocks/pubsub/howto-publish-subscribe/), [api spec](https://docs.dapr.io/reference/api/pubsub_api/) |
-| Bindings | [components-contrib/bindings](https://github.com/dapr/components-contrib/tree/master/bindings) | [Kafka](https://github.com/dapr/components-contrib/tree/master/bindings/kafka) | [concept](https://docs.dapr.io/developing-applications/building-blocks/bindings/bindings-overview/), [input howto](https://docs.dapr.io/developing-applications/building-blocks/bindings/howto-triggers/), [output howto](https://docs.dapr.io/developing-applications/building-blocks/bindings/howto-bindings/), [api spec](https://docs.dapr.io/reference/api/bindings_api/) |
-| Secret Store | [components-contrib/secretstore](https://github.com/dapr/components-contrib/tree/master/secretstores) | [Kubernetes](https://github.com/dapr/components-contrib/tree/master/secretstores/kubernetes), [Azure Keyvault](https://github.com/dapr/components-contrib/tree/master/secretstores/azure/keyvault) | [concept](https://docs.dapr.io/developing-applications/building-blocks/secrets/secrets-overview/), [howto](https://docs.dapr.io/developing-applications/building-blocks/secrets/howto-secrets/)|
-| Middleware | [components-contrib/middleware](https://github.com/dapr/components-contrib/tree/master/middleware) | [Oauth2](https://github.com/dapr/components-contrib/blob/master/middleware/http/oauth2/oauth2_middleware.go) | [concept](https://docs.dapr.io/concepts/middleware-concept/), [howto](https://docs.dapr.io/operations/security/oauth/) |
-| Name Resolution | [components-contrib/nameresolution](https://github.com/dapr/components-contrib/tree/master/nameresolution) | [mdns](https://github.com/dapr/components-contrib/blob/master/nameresolution/mdns/mdns.go) | [howto](https://docs.dapr.io/developing-applications/building-blocks/service-invocation/howto-invoke-discover-services/) |
+| State | [components-contrib/state](https://github.com/JY29/components-contrib/tree/master/state) | [Redis](https://github.com/JY29/components-contrib/tree/master/state/redis) | [concept](https://docs.dapr.io/developing-applications/building-blocks/state-management/state-management-overview/), [howto](https://docs.dapr.io/developing-applications/building-blocks/state-management/howto-get-save-state/), [api spec](https://docs.dapr.io/reference/api/state_api/) |
+| Pubsub | [components-contrib/pubsub](https://github.com/JY29/components-contrib/tree/master/pubsub) | [Redis](https://github.com/JY29/components-contrib/tree/master/pubsub/redis) | [concept](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/), [howto](https://docs.dapr.io/developing-applications/building-blocks/pubsub/howto-publish-subscribe/), [api spec](https://docs.dapr.io/reference/api/pubsub_api/) |
+| Bindings | [components-contrib/bindings](https://github.com/JY29/components-contrib/tree/master/bindings) | [Kafka](https://github.com/JY29/components-contrib/tree/master/bindings/kafka) | [concept](https://docs.dapr.io/developing-applications/building-blocks/bindings/bindings-overview/), [input howto](https://docs.dapr.io/developing-applications/building-blocks/bindings/howto-triggers/), [output howto](https://docs.dapr.io/developing-applications/building-blocks/bindings/howto-bindings/), [api spec](https://docs.dapr.io/reference/api/bindings_api/) |
+| Secret Store | [components-contrib/secretstore](https://github.com/JY29/components-contrib/tree/master/secretstores) | [Kubernetes](https://github.com/JY29/components-contrib/tree/master/secretstores/kubernetes), [Azure Keyvault](https://github.com/JY29/components-contrib/tree/master/secretstores/azure/keyvault) | [concept](https://docs.dapr.io/developing-applications/building-blocks/secrets/secrets-overview/), [howto](https://docs.dapr.io/developing-applications/building-blocks/secrets/howto-secrets/)|
+| Middleware | [components-contrib/middleware](https://github.com/JY29/components-contrib/tree/master/middleware) | [Oauth2](https://github.com/JY29/components-contrib/blob/master/middleware/http/oauth2/oauth2_middleware.go) | [concept](https://docs.dapr.io/concepts/middleware-concept/), [howto](https://docs.dapr.io/operations/security/oauth/) |
+| Name Resolution | [components-contrib/nameresolution](https://github.com/JY29/components-contrib/tree/master/nameresolution) | [mdns](https://github.com/JY29/components-contrib/blob/master/nameresolution/mdns/mdns.go) | [howto](https://docs.dapr.io/developing-applications/building-blocks/service-invocation/howto-invoke-discover-services/) |
 
 ### Running unit-test
 
@@ -56,9 +56,9 @@ make lint
 
 1. Make sure you clone the `dapr/dapr` and `dapr/components-contrib` repositories side-by-side, within the same folder.
 1. In case of compatibility issues between `dapr/dapr` and `dapr/compoments-contrib` `go.mod` files during build, checkout the latest released version of `dapr/dapr`.
-1. Replace `github.com/dapr/components-contrib` with a reference to the locally-cloned `components-contrib`:
+1. Replace `github.com/JY29/components-contrib` with a reference to the locally-cloned `components-contrib`:
    ```bash
-   go mod edit -replace github.com/dapr/components-contrib=../components-contrib
+   go mod edit -replace github.com/JY29/components-contrib=../components-contrib
    ```
 1. Register your components by creating a file (in the `dapr/dapr` repo) in [`cmd/daprd/components`](https://github.com/dapr/dapr/tree/master/cmd/daprd/components), similar to the ones in the folder (one file per component).
 1. Build debuggable dapr binary
@@ -83,13 +83,13 @@ make lint
 
 ## Submit your component
 
-1. Create a Pull Request to add your component in [component-contrib](https://github.com/dapr/components-contrib/pulls) repo
+1. Create a Pull Request to add your component in [component-contrib](https://github.com/JY29/components-contrib/pulls) repo
 1. Get the approval from maintainers
 1. Fetch the latest `dapr/dapr` repo
 1. Update components-contrib in `dapr/dapr`'s `go.mod` and ensure that `components-contrib` is updated to the latest version
    ```bash
    # In the folder where the dapr/dapr repo was cloned
-   go get -u github.com/dapr/components-contrib@master
+   go get -u github.com/JY29/components-contrib@master
    make modtidy-all
    ```
 1. Register your components by creating a file (in the `dapr/dapr` repo) in [`cmd/daprd/components`](https://github.com/dapr/dapr/tree/master/cmd/daprd/components), similar to the ones in the folder (one file per component).

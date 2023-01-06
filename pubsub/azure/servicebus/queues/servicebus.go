@@ -21,10 +21,10 @@ import (
 	servicebus "github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus"
 	"github.com/cenkalti/backoff/v4"
 
-	impl "github.com/dapr/components-contrib/internal/component/azure/servicebus"
-	"github.com/dapr/components-contrib/internal/utils"
-	contribMetadata "github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/pubsub"
+	impl "github.com/JY29/components-contrib/internal/component/azure/servicebus"
+	"github.com/JY29/components-contrib/internal/utils"
+	contribMetadata "github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/pubsub"
 	"github.com/dapr/kit/logger"
 	"github.com/dapr/kit/retry"
 )

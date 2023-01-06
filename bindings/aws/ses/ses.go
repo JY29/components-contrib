@@ -23,11 +23,11 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 
-	awsAuth "github.com/dapr/components-contrib/internal/authentication/aws"
+	awsAuth "github.com/JY29/components-contrib/internal/authentication/aws"
 
 	"github.com/aws/aws-sdk-go/service/ses"
 
-	"github.com/dapr/components-contrib/bindings"
+	"github.com/JY29/components-contrib/bindings"
 	"github.com/dapr/kit/logger"
 )
 

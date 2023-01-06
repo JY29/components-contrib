@@ -26,8 +26,8 @@ import (
 	"github.com/aerospike/aerospike-client-go/types"
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/state"
+	"github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/state"
 	"github.com/dapr/kit/logger"
 	"github.com/dapr/kit/ptr"
 )

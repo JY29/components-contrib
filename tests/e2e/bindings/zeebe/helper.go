@@ -24,10 +24,10 @@ import (
 	"github.com/camunda/zeebe/clients/go/v8/pkg/pb"
 	"github.com/google/uuid"
 
-	"github.com/dapr/components-contrib/bindings"
-	"github.com/dapr/components-contrib/bindings/zeebe/command"
-	"github.com/dapr/components-contrib/bindings/zeebe/jobworker"
-	"github.com/dapr/components-contrib/metadata"
+	"github.com/JY29/components-contrib/bindings"
+	"github.com/JY29/components-contrib/bindings/zeebe/command"
+	"github.com/JY29/components-contrib/bindings/zeebe/jobworker"
+	"github.com/JY29/components-contrib/metadata"
 	"github.com/dapr/kit/logger"
 )
 

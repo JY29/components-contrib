@@ -19,7 +19,7 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
 
-	"github.com/dapr/components-contrib/state"
+	"github.com/JY29/components-contrib/state"
 )
 
 // dbAccess is a private interface which enables unit testing of PostgreSQL.

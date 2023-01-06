@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strconv"
 
-	mdutils "github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/pubsub"
+	mdutils "github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/pubsub"
 
 	"github.com/aws/aws-sdk-go/aws/endpoints"
 )

@@ -13,6 +13,6 @@ services:
     network_mode:
       service:nats
     volumes:
-      - ../../../../:/go/src/github.com/dapr/components-contrib:cached
+      - ../../../../:/go/src/github.com/JY29/components-contrib:cached
     depends_on:
       - nats

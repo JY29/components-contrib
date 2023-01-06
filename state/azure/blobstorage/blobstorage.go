@@ -49,9 +49,9 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/container"
 	jsoniter "github.com/json-iterator/go"
 
-	storageinternal "github.com/dapr/components-contrib/internal/component/azure/blobstorage"
-	mdutils "github.com/dapr/components-contrib/metadata"
-	"github.com/dapr/components-contrib/state"
+	storageinternal "github.com/JY29/components-contrib/internal/component/azure/blobstorage"
+	mdutils "github.com/JY29/components-contrib/metadata"
+	"github.com/JY29/components-contrib/state"
 	"github.com/dapr/kit/logger"
 	"github.com/dapr/kit/ptr"
 )

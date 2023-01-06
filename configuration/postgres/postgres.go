@@ -31,7 +31,7 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 	"k8s.io/utils/strings/slices"
 
-	"github.com/dapr/components-contrib/configuration"
+	"github.com/JY29/components-contrib/configuration"
 	"github.com/dapr/kit/logger"
 )
 

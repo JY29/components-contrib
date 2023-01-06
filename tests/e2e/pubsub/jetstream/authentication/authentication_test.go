@@ -6,8 +6,8 @@ package authentication_test
 import (
 	"testing"
 
-	"github.com/dapr/components-contrib/pubsub"
-	"github.com/dapr/components-contrib/pubsub/jetstream"
+	"github.com/JY29/components-contrib/pubsub"
+	"github.com/JY29/components-contrib/pubsub/jetstream"
 	"github.com/dapr/kit/logger"
 )
 

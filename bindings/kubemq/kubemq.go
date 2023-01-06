@@ -8,7 +8,7 @@ import (
 
 	qs "github.com/kubemq-io/kubemq-go/queues_stream"
 
-	"github.com/dapr/components-contrib/bindings"
+	"github.com/JY29/components-contrib/bindings"
 	"github.com/dapr/kit/logger"
 )
 

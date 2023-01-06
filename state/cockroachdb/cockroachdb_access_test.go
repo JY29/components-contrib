@@ -21,7 +21,7 @@ import (
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/components-contrib/state"
+	"github.com/JY29/components-contrib/state"
 	"github.com/dapr/kit/logger"
 )
 

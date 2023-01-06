@@ -27,8 +27,8 @@ import (
 	jwt "github.com/golang-jwt/jwt/v4"
 	"github.com/pkg/errors"
 
-	"github.com/dapr/components-contrib/bindings"
-	azauth "github.com/dapr/components-contrib/internal/authentication/azure"
+	"github.com/JY29/components-contrib/bindings"
+	azauth "github.com/JY29/components-contrib/internal/authentication/azure"
 	"github.com/dapr/kit/logger"
 )
 

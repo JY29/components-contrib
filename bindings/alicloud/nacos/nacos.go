@@ -28,7 +28,7 @@ import (
 	"github.com/nacos-group/nacos-sdk-go/v2/common/constant"
 	"github.com/nacos-group/nacos-sdk-go/v2/vo"
 
-	"github.com/dapr/components-contrib/bindings"
+	"github.com/JY29/components-contrib/bindings"
 	"github.com/dapr/kit/logger"
 )
 
@@ -163,7 +163,7 @@ func (n *Nacos) Read(ctx context.Context, handler bindings.Handler) error {
 	return nil
 }
 
-// Close implements cancel all listeners, see https://github.com/dapr/components-contrib/issues/779
+// Close implements cancel all listeners, see https://github.com/JY29/components-contrib/issues/779
 func (n *Nacos) Close() error {
 	n.cancelAllListeners()
 

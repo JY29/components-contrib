@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	rediscomponent "github.com/dapr/components-contrib/internal/component/redis"
-	"github.com/dapr/components-contrib/lock"
+	rediscomponent "github.com/JY29/components-contrib/internal/component/redis"
+	"github.com/JY29/components-contrib/lock"
 	"github.com/dapr/kit/logger"
 )
 

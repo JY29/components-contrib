@@ -25,9 +25,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dapr/components-contrib/bindings"
-	bindingHttp "github.com/dapr/components-contrib/bindings/http"
-	"github.com/dapr/components-contrib/metadata"
+	"github.com/JY29/components-contrib/bindings"
+	bindingHttp "github.com/JY29/components-contrib/bindings/http"
+	"github.com/JY29/components-contrib/metadata"
 	"github.com/dapr/kit/logger"
 )
 

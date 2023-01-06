@@ -24,7 +24,7 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
 
-	"github.com/dapr/components-contrib/internal/utils"
+	"github.com/JY29/components-contrib/internal/utils"
 	"github.com/dapr/kit/ptr"
 )
 
